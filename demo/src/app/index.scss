@@ -1,0 +1,33 @@
+// injector
+@import '../fonts/md-icons';
+@import '../fonts/roboto';
+
+// endinjector
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0 !important;
+  background-color: #EEEEEE;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1305px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+$icon-font-path: '../app/fonts/';
+
+@import '../../bower_components/lumx/dist/lumx.css';
